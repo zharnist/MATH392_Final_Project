@@ -2,7 +2,7 @@ import os
 from sklearn.model_selection import ParameterGrid
 
 # --- Output Directory Paths ---
-RESULTS_DIR = './results'
+RESULTS_DIR = '../results'
 HPO_DIR = os.path.join(RESULTS_DIR, 'hpo')
 FINAL_TRAINING_DIR = os.path.join(RESULTS_DIR, 'final_training')
 EVALUATION_DIR = os.path.join(RESULTS_DIR, 'evaluation')
