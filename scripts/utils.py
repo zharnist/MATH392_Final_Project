@@ -75,7 +75,7 @@ def get_transforms(augment: bool = False):
 # --- Dataset and DataLoader ---
 
 def get_datasets(task: str,
-                 root_dir: str = './data', 
+                 root_dir: str = '../data', 
                  augment_train: str = 'noaug', 
                  val_split_ratio: float = 0.2, 
                  random_seed: int = 42):

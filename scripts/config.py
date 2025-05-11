@@ -8,9 +8,9 @@ FINAL_TRAINING_DIR = os.path.join(RESULTS_DIR, 'final_training')
 EVALUATION_DIR = os.path.join(RESULTS_DIR, 'evaluation')
 
 # --- Default Experiment Parameters ---
-DEFAULT_HPO_EPOCHS = 15
+DEFAULT_HPO_EPOCHS = 20
 DEFAULT_FINAL_TRAIN_EPOCHS = 50 # Max epochs for final training
-DEFAULT_PATIENCE = 10           # Patience for early stopping in final training
+DEFAULT_PATIENCE = 5          # Patience for early stopping in final training
 DEFAULT_BATCH_SIZE = 64
 
 # --- HPO Grid Definition ---
